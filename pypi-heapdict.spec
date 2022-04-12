@@ -4,7 +4,7 @@
 #
 Name     : pypi-heapdict
 Version  : 1.0.1
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/5a/9b/d8963ae7e388270b695f3b556b6dc9adb70ae9618fba09aa1e7b1886652d/HeapDict-1.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5a/9b/d8963ae7e388270b695f3b556b6dc9adb70ae9618fba09aa1e7b1886652d/HeapDict-1.0.1.tar.gz
 Summary  : a heap with decrease-key and increase-key operations
@@ -14,9 +14,6 @@ Requires: pypi-heapdict-license = %{version}-%{release}
 Requires: pypi-heapdict-python = %{version}-%{release}
 Requires: pypi-heapdict-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: HeapDict
-Provides: HeapDict-python
-Provides: HeapDict-python3
 
 %description
 ===============================================================
@@ -60,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641442211
+export SOURCE_DATE_EPOCH=1649759395
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
